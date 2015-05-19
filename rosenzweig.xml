@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.loc.gov/ead/ead.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead:ead id="sample" xmlns:ead="urn:isbn:1-931666-22-9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ead:eadheader>
+        <ead:eadid/>
+        <ead:filedesc>
+            <ead:titlestmt>
+                <ead:titleproper> The Franz Rosenzweig Papers</ead:titleproper>
+                <ead:subtitle>A Finding Aid to the Collection in the Special Collections and
+                    University Archives, a division of Vanderbilt University's Jean and Alexander
+                    Heard Library</ead:subtitle>
+            </ead:titlestmt>
+            <ead:publicationstmt>
+                <ead:publisher>Special Collections and University Archives</ead:publisher>
+                <ead:address>
+                    <ead:addressline>Jean and Alexander Heard Library, Vanderbilt
+                        University</ead:addressline>
+                    <ead:addressline>419 21st Avenue South</ead:addressline>
+                    <ead:addressline>Nashville, TN 37203-2427</ead:addressline>
+                    <ead:addressline>Phone: (615) 322-2807</ead:addressline>
+                    <ead:addressline>URL:
+                        http://www.library.vanderbilt.edu/speccol/</ead:addressline>
+                </ead:address>
+                <ead:date>2014</ead:date>
+            </ead:publicationstmt>
+        </ead:filedesc>
+        <ead:profiledesc>
+            <ead:creation>Finding aid updated and encoded by Eli D. Fisher</ead:creation>
+            <ead:langusage>
+                <ead:language langcode="eng">English</ead:language>
+            </ead:langusage>
+        </ead:profiledesc>
+    </ead:eadheader>
+    <ead:archdesc level="collection">
+        <ead:did>
+            <ead:head>Collection Summary</ead:head>
+            <ead:unittitle label="Title:">The Franz Rosenzweig Collection</ead:unittitle>
+            <ead:langmaterial>Materials are primarily in <ead:language langcode="ger"
+                    >German,</ead:language> but also in <ead:language>Hebrew,
+                    </ead:language><ead:language langcode="eng">English, </ead:language>and
+                    <ead:language langcode="gre">Greek</ead:language>
+            </ead:langmaterial>
+            <ead:unitdate label="Span Dates:">1896-1974</ead:unitdate>
+            <ead:unitdate label="Bulk Dates:">1919-1932</ead:unitdate>
+            <ead:origination label="Collector:">The Franz Rosenzweig Papers are a part of the Nahum
+                N. Glatzer Collection</ead:origination>
+            <ead:repository>Special Collections and University Archives, a division of Vanderbilt
+                University's Jean and Alexander Heard Library System.</ead:repository>
+            <ead:physdesc>6 boxes</ead:physdesc>
+        </ead:did>
+        <ead:descgrp>
+            <ead:head/>
+            <ead:relatedmaterial>
+                <ead:head>Related Collections</ead:head>
+                <ead:archref>
+                    <ead:unitid>Internet Archive</ead:unitid>
+                    <ead:unittitle>Franz Rosenzweig Collection 1839-1999 (1832)</ead:unittitle>
+                    <ead:physloc>
+                        <ead:extptr xlink:type="simple"
+                            xlink:href="https://archive.org/details/franzrosenzweig"/>
+                    </ead:physloc>
+                </ead:archref>
+            </ead:relatedmaterial>
+        </ead:descgrp>
+        <ead:descgrp>
+            <ead:head>Administrative Information</ead:head>
+            <ead:acqinfo>
+                <ead:p>The Divinity Library acquired the Franz Rosenzweig Papers as part of the
+                    archives of Professor Nahum N. Glatzer in 1991 as a gift from the Zimmerman
+                    family.</ead:p>
+            </ead:acqinfo>
+        </ead:descgrp>
+        <ead:bioghist>
+            <ead:bioghist>
+                <ead:head>Biographical Note</ead:head>
+                <ead:p>Franz Rosenzweig (December 25, 1886â€“December 10, 1929), one of most
+                    original German-Jewish theologians and philosophers of the 20th Century, was
+                    part of a small circle of Jewish scholars following the First World War that
+                    worked to develop a new synthesis of philosophy and theology and to shape the
+                    development of Jewish education.</ead:p>
+                <ead:p>Rosenzweig was raised in a well-to-do, non-practicing Jewish family, but he
+                    developed an interest in the Jewish faith under the influence of an uncle. He
+                    began his university studies in medicine in 1904 at GÃ¶ttingen and then Munich,
+                    but he moved to Freiburg in 1906 to study history and philosophy. His PhD
+                    thesis, completed in 1912, became part of a two-volume work, Hegel und der Staat
+                    (published in 1920). In 1913, after nearly converting to Christianity, he
+                    instead rededicated himself to Judaism and began an intense study of Jewish
+                    classics. Although he served on the Balkan front in World War I, Rosenzweig saw
+                    no combat and spent his time studying, writing, and corresponding. In the fall
+                    of 1918, he began work on his magnum opus, Der Stern der ErlÃ¶sung, which he
+                    began writing on army postcards and mailed to his mother. He completed the work
+                    after being discharged in 1919 and published it in 1921.</ead:p>
+                <ead:p>In the years after the war, Rosenzweig also joined with a group of Jewish
+                    scholars to found a Jewish school, the Freies JÃ¼disches Lehrhaus, in Frankfort,
+                    dedicated to reconnecting Jews to their past traditions without separating them
+                    from modern society. Rosenzweig became the first director, but less than a year
+                    later (in February 1922) he was diagnosed with Amyotrophic Lateral Sclerosis and
+                    resigned the post several months later (although he remained involved in
+                    developing the curriculum). The Rosenzweigs purchased a special typewriter in
+                    early 1922 that allowed him to continue writing, but as the symptoms of his
+                    illness progressed, he slowly lost this ability as well. By December 1923, he
+                    could no longer type or communicate orally. He was able, however, to communicate
+                    by indicating keys on the keyboard.</ead:p>
+                <ead:p>As a result, in spite of his handicap he continued his research and writing,
+                    turning his attention primarily to translation, publishing Sixty Hymns and Poems
+                    of Judah Halevi in 1924 (and an expanded edition in 1927). The work contained
+                    not only translations of the poems but also commentary. In addition, Rosenzweig
+                    published a number of articles on the nature of translating itself. In 1925 he
+                    and Martin Buber began a translation of the Jewish Scriptures entitled Die
+                    Schrift. Rosenzweig died on December 19, 1929.</ead:p>
+            </ead:bioghist>
+        </ead:bioghist>
+        <ead:scopecontent>
+            <ead:head>Scope and Content Note</ead:head>
+            <ead:p>Series One consists of handwritten manuscripts either by Franz Rosenzweig or by
+                his acquaintences.</ead:p>
+            <ead:arrangement>
+                <ead:p>Series One is organized into three subseries:</ead:p>
+                <ead:p>Subseries 1.1 includes manuscript pages (originals and revised drafts) of
+                    Franz Rosenzweigâ€™s (FR) definitive work, Der Stern der ErlÃ¶sung (The Star of
+                    Redemption), as well as several pages of corrections. All of these items are in
+                    the authorâ€™s handwriting and are written on a variety of sizes and styles of
+                    paper, which may be single or double sided and are sometimes numbered by sheet
+                    and sometimes by page; chapter manuscripts may also be dated by the author at
+                    the end. Each folder herein contains the manuscript of one of the sections (the
+                    Introduction or a chapter). In several cases, Glatzer has indicated
+                    corresponding page numbers to the first German edition or written marginal notes
+                    concerning the text. Item numbers indicate the actual number of pieces in the
+                    folder (which may be single sheets of paper, folded sheets, or stapled
+                    notebooks). Chapter titles are noted only when they differ from the published
+                    edition.</ead:p>
+                <ead:p>Subseries 1.2 comprises original manuscript pages from a wide variety of
+                    Rosenzweigâ€™s shorter writings (several unpublished). A number of these are
+                    handwritten (predating his illness). Several of these manuscripts are
+                    typewritten, perhaps by Rosenzweig himself (during the early days of his
+                    illness) or by an aide at his dictation. Subseries 1.2 also includes typewritten
+                    copies (many with hand-written corrections) of a number of Rosenzweigâ€™s works,
+                    presumably readying them for publication. Finally, Subseries 1.2 includes a
+                    small number of papers of a personal nature: an essay written by FR for two
+                    friends on their wedding day, transcripts from FRâ€™s notebook containing
+                    stories and details concerning his family tree. Most of this material is
+                    undated. Arrangement: alphabetically by title of the work.</ead:p>
+                <ead:p>Subseries 1.3 contains manuscripts written by acquaintences of FR; several of
+                    these are memorials of FR. Arrangement: alphabetically by author.</ead:p>
+                <ead:p>Series Two comprises correspondence (short notes, memos, postcards,
+                    telegraphs, and letters) written by and to FR. These letters take four
+                    forms:</ead:p>
+                <ead:list>
+                    <ead:item>â€¢ the original, handwritten autograph or a carbon copy of the
+                        original, made at the time of composition;</ead:item>
+                    <ead:item>â€¢ the original, typed autograph of the letter;</ead:item>
+                    <ead:item>â€¢ a typed copy prepared for publication;</ead:item>
+                    <ead:item>â€¢ or a Photostat or photocopy of any of the above forms.</ead:item>
+                </ead:list>
+                <ead:p>Series Two is divided into three subseries:</ead:p>
+                <ead:p>Subseries 2.1 contains the letters of FR written to various individuals. Of
+                    these, the original, handwritten autographs written prior to 1923 are in his
+                    handwriting; after December, 1923, original autographs are in the handwriting of
+                    the person transcribing the letter as dictated by FR. Typed copies of original
+                    autographs by FR prior to 1923 were made on a normal typewriter; letters from
+                    early March until early December, 1923, were typed by FR on a special typewriter
+                    after he had been diagnosed with MLS (and as a result, show the progression of
+                    his illness). Arrangement: alphabetically by recipient, chronologically within
+                    the folder (undated correspondence is placed at the end).</ead:p>
+                <ead:p>Subseries 2.2 contains letters written by various individuals to FR.
+                    Arrangement: alphabetically by author, chronologically within the
+                    folder.</ead:p>
+                <ead:p>Subseries 2.3 contains correspondence written about FR among various
+                    individuals. Many of these letters relate to Glatzerâ€™s attempts to collect and
+                    collate FRâ€™s correspondence between the years 1942â€“1970. Arrangement:
+                    alphabetically by author and recipient, chronologically within the
+                    folder.</ead:p>
+                <ead:p>Series Three contains diaries of FR, primarily from his university days. The
+                    majority of these diaries have been transcribed, are typewritten, and are
+                    divided into four parts. They contain numerous marginal notes by NNG. Arranged
+                    chronologicaly</ead:p>
+                <ead:p>Series Four contains offprints, pamphlets, and newspaper clippings of
+                    translations and articles by FR; several excerpts from Die Schrift, with Martin
+                    Buber; and one article that mentions FR. Arranged alphabetically by
+                    title.</ead:p>
+                <ead:p>Series Five contains unbound galley proofs of Der Stern der ErlÃ¶sung with
+                    hand-written corrections by FR.</ead:p>
+                <ead:p>Series Six comprises personal records primarily from FRâ€™s university years.
+                    Arranged alphabetically and chronologically.</ead:p>
+                <ead:p>Series Seven comprises ephemera, including postcards, newspaper clippings,
+                    posters, and miscellaneous items, arranged alphabetically. Series Seven is
+                    divided into three subseries: items belonging to FR, items belonging to Nahum N.
+                    Glatzer, and items from Eugen Rosenstock-Huessy.</ead:p>
+                <ead:p>Series Eight comprises photographs, most of which were used in publications
+                    of FRâ€™s works. Arranged alphabetically.</ead:p>
+            </ead:arrangement>
+        </ead:scopecontent>
+        <ead:dsc>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 1: Manuscripts</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 1.1: Der Stern der ErlÃ¶sung</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Box 1</ead:container>
+                            <ead:container>Folders</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>1. Der Stern der ErlÃ¶sung Postcards, 9 items.</ead:item>
+                                <ead:item>2. Part I: Einleitung A, 3 items.</ead:item>
+                                <ead:item>3. Part I: Einleitung B, 6 items.</ead:item>
+                                <ead:item>4. Part I; Einleitung C, 12 items.</ead:item>
+                                <ead:item>5. Part I, Einleitung D, 27 items.</ead:item>
+                                <ead:item>6. Part I, Chapter 1, Gott oder das Metaphysische; 6
+                                    items.</ead:item>
+                                <ead:item>7. Part I, Chapter 2; Die Welt, oder des Metalogische A;
+                                    24 items.</ead:item>
+                                <ead:item>8. Part I, Chapter 2, Die Welt, oder des Metalogische B;
+                                    13 items.</ead:item>
+                                <ead:item>9. Part I, Chapter 3, Der Mensch oder das Metaethische A;
+                                    15 items.</ead:item>
+                                <ead:item>10. Part I, Chapter 3, Der Mensch oder das Metaethische B;
+                                    7 items.</ead:item>
+                                <ead:item>11. Part I, Chapter 3, Der Mensch oder das Metaethische;
+                                    16 items.</ead:item>
+                                <ead:item>12. Part I, Ãœbergang A; 7 items.</ead:item>
+                                <ead:item>13. Part I, Ãœbergang B; 6 items.</ead:item>
+                                <ead:item>14. Part II, Einleitung A; 14 items.</ead:item>
+                                <ead:item>15. Part II, Einleitung B; 5 items.</ead:item>
+                                <ead:item>16. Part II, Chapter 1; 35 items.</ead:item>
+                                <ead:item>17. Part II, Chapter 2; 68 items.</ead:item>
+                                <ead:item>18. Part II, Chapter 3; 96 items.</ead:item>
+                                <ead:item>19. Part II, Schwelle; 20 items.</ead:item>
+                                <ead:item>20. Part III, Einleitung; Part I, Anfang zur Einleitung
+                                    des I. Teils; 6 items.</ead:item>
+                                <ead:item>21. Part III, Chapter 1; 37 items.</ead:item>
+                                <ead:item>22. Part III, Chapter 2; 45 items.</ead:item>
+                                <ead:item>23. Part III, Chapter 3; 42 items.</ead:item>
+                                <ead:item>24. Part III, Tor; 8 items.</ead:item>
+                                <ead:item>25. Notes, Der Stern der ErlÃ¶sung A; 124
+                                    items.</ead:item>
+                                <ead:item>26. Notes, Der Stern der ErlÃ¶sung B; 5 items.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 1.2: Various Manuscripts by Frabz
+                            Rosenzweig</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Box 2</ead:container>
+                            <ead:container>Folders</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>1. Alte Rosenzweigsche Familiennachrichten, 5
+                                    items.</ead:item>
+                                <ead:item>3. Baalshem Tov; 4 items.</ead:item>
+                                <ead:item>4. Becherrede zur Hochzeit Victor Ehrenberg, Eva Sommer A;
+                                    19 items.</ead:item>
+                                <ead:item>5. Becherrede zur Hochzeit von Victor Ehrenberg und Eva
+                                    Sommer B; 10 items.</ead:item>
+                                <ead:item>6. Der Denker; 6 items.</ead:item>
+                                <ead:item>7. Diskussionsrede zur Einleitung; 7 items.</ead:item>
+                                <ead:item>8. Von Einheit und Ewigkeit. Ein GesprÃ¤ch zwischen Lieb
+                                    und Seele; 24 items.</ead:item>
+                                <ead:item>9. Genesis 2,3; 1 item.</ead:item>
+                                <ead:item>10. Gott Ist die GrÃ¼nde; 2 items.</ead:item>
+                                <ead:item>11. GÃ¶ttlich und menschlich (3 copies); 15
+                                    items.</ead:item>
+                                <ead:item>12. Historical article, draft; 1 item.</ead:item>
+                                <ead:item>13. Jehuda Halevi; 1 item.</ead:item>
+                                <ead:item>14. Judentum und Deutschtum; 7 items.</ead:item>
+                                <ead:item>15. Krankensbesuch (2 copies); 6 items.</ead:item>
+                                <ead:item>16. LeitsÃ¤tze. Zweck der ZusammenkÃ¼nfte; 2
+                                    items.</ead:item>
+                                <ead:item>17. Der Letzle Waffengang [Derletzle Waffengang?], von
+                                    Albrecht Schaeffer; 3 items.</ead:item>
+                                <ead:item>18. Martin Buber; 1 item.</ead:item>
+                                <ead:item>19. Moaus Zur; 2 items.</ead:item>
+                                <ead:item>20. Paralipomena A; 2 items.</ead:item>
+                                <ead:item>21. Paralipomena B; 42 pages.</ead:item>
+                                <ead:item>22. Paralipomena C; 7 pages.</ead:item>
+                                <ead:item>23. Parteien als Ideen; 4 items.</ead:item>
+                                <ead:item>24. Pessach: Das Fest der Befreiung; 2 items.</ead:item>
+                                <ead:item>25. Rudolf Steiner und Johannes MÃ¼ller: Ein
+                                    DoppelportrÓ“t;2 items.</ead:item>
+                                <ead:item>26. Schechina A; 1 item [1911].</ead:item>
+                                <ead:item>27. Schechina B; 1 notebook [1911].</ead:item>
+                                <ead:item>28. Die Schrift und das Wort; 4 items.</ead:item>
+                                <ead:item>29. StaatsbÃ¼rgerlicher Ausblick; 4 items.</ead:item>
+                                <ead:item>30. Tischdank A; 1 item.</ead:item>
+                                <ead:item>31. Tischdank B; 10 items.</ead:item>
+                                <ead:item>32. Tischdank C; 9 items.</ead:item>
+                                <ead:item>33. Tischdank D; 6 items.</ead:item>
+                                <ead:item>34. Tischdank E; 17 items.</ead:item>
+                                <ead:item>35. Tischdank F; 9 items.</ead:item>
+                                <ead:item>36. Unidentified manuscript A; 10 items.</ead:item>
+                                <ead:item>37. Unidentified manuscript B; 6 items.</ead:item>
+                                <ead:item>38. Unidentified manuscript C; 12 items.</ead:item>
+                                <ead:item>39. Unidentified manuscript D; 3 items.</ead:item>
+                                <ead:item>40. Urzelle Der Stern der ErlÃ¶sung A; 23
+                                    items.</ead:item>
+                                <ead:item>41. Urzelle Der Stern der ErlÃ¶sung B; 16
+                                    items.</ead:item>
+                                <ead:item>42. Volksschule und Riechsschule A; 36 items.</ead:item>
+                                <ead:item>43. Volksschule und Riechsschule B; 25
+                                    postcards.</ead:item>
+                                <ead:item>44. Vox Dei? Die Gewissensfrage der Demokratie; 13
+                                    items.</ead:item>
+                                <ead:item>45. Die Wissenschaft von Gott; 10 items.</ead:item>
+                                <ead:item>46. Zeit Ists A; 1 item.</ead:item>
+                                <ead:item>47. Zeit Ists B; 11 items.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 1.3: Various Manuscripts by Acquaintences of Franz
+                            Rosenzweig</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Folder</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>48. Koch, Rudolf, Einzelne Erinnerungen an Franz
+                                    Rosenzweig; 12 items.</ead:item>
+                                <ead:item>49. Rosenstock-Huessy, Eugin, The Future Way of Life; 1
+                                    item.</ead:item>
+                                <ead:item>50. Rosenzweig, Adele, Erinnerunngen Adele Rosenzweigs an
+                                    die Kindheit v. Franz; 4 items.</ead:item>
+                                <ead:item>51. Unknown; 11 items.</ead:item>
+                                <ead:item>52. Wessel, David, Franz Rosenzweig; 2 items.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 2: Correspondence</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 2.1: Correspondence written by Franz
+                            Rosenzweig</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Box 3</ead:container>
+                            <ead:container>Folders</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>1. Badt, Hermann; 8 items.</ead:item>
+                                <ead:item>2. Buber, Martin, typewritten 1922â€”1927; 32
+                                    items.</ead:item>
+                                <ead:item>3. Buber, Martin, typewritten 1923â€”1924; 43
+                                    items.</ead:item>
+                                <ead:item>4. Buber, Martin, hand written 1924â€”1925; 60
+                                    items.</ead:item>
+                                <ead:item>5. Buber, Martin, hand written 1925â€”1929; 67
+                                    items.</ead:item>
+                                <ead:item>6. Buber, Martin, hand written undated; 21
+                                    items.</ead:item>
+                                <ead:item>7. Cohen, Hermann; 6 items.</ead:item>
+                                <ead:item>8. Duschinski, Eli; 1 item.</ead:item>
+                                <ead:item>9. Ehrenberg, Richard; 5 items.</ead:item>
+                                <ead:item>10. Ehrenberg, Viktor; 45 items.</ead:item>
+                                <ead:item>11. Falkenberg, Herr; 1 item.</ead:item>
+                                <ead:item>12. Glatzer, Nahum, Abschrift etwa Juni 1919; 1
+                                    item.</ead:item>
+                                <ead:item>13. Glatzer, Nahum; 86 items.</ead:item>
+                                <ead:item>14. Hahn, Edith; 2 items.</ead:item>
+                                <ead:item>15. Hallo, Rudolf; 3 items.</ead:item>
+                                <ead:item>16. Kahn, Mawrik; 24 items.</ead:item>
+                                <ead:item>17. Lazarus, Arnold; 3 items.</ead:item>
+                                <ead:item>18. Paul [no last name]; 1 item.</ead:item>
+                                <ead:item>19. Philosophical Faculty, University of Freiburg; 1
+                                    item.</ead:item>
+                                <ead:item>20. Prager, Joseph; 10 items.</ead:item>
+                                <ead:item>21. Rosenstock-Heussy, Margrit; 1 item.</ead:item>
+                                <ead:item>22. Rosenzweig, Adele; 9 items.</ead:item>
+                                <ead:item>23. Rosenzweig, Rafael; 1 item.</ead:item>
+                                <ead:item>24. Schalit, Heinrich; 5 items.</ead:item>
+                                <ead:item>25. Scholem, Gerhard; 7 items.</ead:item>
+                                <ead:item>26. Seligman, Ilse; 1 item.</ead:item>
+                                <ead:item>27. Simon, Ernst; 41 items.</ead:item>
+                                <ead:item>28. Sommer, Eva; 5 items.</ead:item>
+                                <ead:item>29. Sommer, Helene; 7 items.</ead:item>
+                                <ead:item>30. Stahl, Rudolf; 1 item.</ead:item>
+                                <ead:item>31. Strauss, Bertha Badt; 1 item.</ead:item>
+                                <ead:item>32. Strauss, Eduard; 25 items.</ead:item>
+                                <ead:item>33. Susman-Bendemann, Margarete von; 1 item.</ead:item>
+                                <ead:item>34. Unknown A; 9 items.</ead:item>
+                                <ead:item>35. Various letters excerpts; 9 pages.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 2.2: Correspondence written by various individuals
+                            to Franz Rosenzweig</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Folders</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>36. Ehrenberg, Hans; 5 items</ead:item>
+                                <ead:item>37. Ehrenberg, Rudolf; 4 items.</ead:item>
+                                <ead:item>38. Gerlach, Kurt; 2 items.</ead:item>
+                                <ead:item>39. Philips, [Carlo]; 1 item.</ead:item>
+                                <ead:item>40. Plessen [?], Frau von; 1 item.</ead:item>
+                                <ead:item>41. Prager, Joseph; 1 item.</ead:item>
+                                <ead:item>42. Rosenstock-Huessy, Eugen; 6 items.</ead:item>
+                                <ead:item>43. Rosenstock, Paula; 3 items.</ead:item>
+                                <ead:item>44. Rosenzweig, Adele; 1 item.</ead:item>
+                                <ead:item>45. Rosenzweig, Adele; 16 items.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 2.3: Correspondence written about Franz Rosenzweig
+                            by various individuals</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Box 4</ead:container>
+                            <ead:unittitle>Folder</ead:unittitle>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>1. Avnel, Ehud, to Buber, Martin; 1 item.</ead:item>
+                                <ead:item>2. Badt-Strauss, Bertha, to Glatzer, Nahum N.; 1
+                                    item.</ead:item>
+                                <ead:item>3. Ben-Gurion, David, to Buber, Martin; 1 item.</ead:item>
+                                <ead:item>4. Borries, Achim v., to Glatzer, Nahum N.; 3
+                                    items.</ead:item>
+                                <ead:item>5. Buber, Martin, to Ben-Gurion, David; 1 item.</ead:item>
+                                <ead:item>6. Ehrenberg, Victor, to Glatzer, Nahum N.; 1
+                                    item.</ead:item>
+                                <ead:item>7. Eidelberg, S, to unknown; 4 items.</ead:item>
+                                <ead:item>8. Eshkol, Levi, to Buber, Martin; 3 items.</ead:item>
+                                <ead:item>9. Kepler / Kaplan, Morcecai N, to unknown; 1
+                                    item</ead:item>
+                                <ead:item>10. Koch, Richard, to Glatzer, Nahum N.; 5
+                                    items.</ead:item>
+                                <ead:item>11. Oppenheim, Gertrud, to Glatzer, Nahum N.; 30
+                                    items.</ead:item>
+                                <ead:item>12. Rosenstock-Huessy, Eugen, to Ehrenberg, Hans; 2
+                                    items.</ead:item>
+                                <ead:item>13. Rosenstock-Huessy, Eugen, to Glatzer, Nahum N.; 3
+                                    items.</ead:item>
+                                <ead:item>14. Rosenzweig, Adele, to Beckerath, Frau. 1
+                                    item.</ead:item>
+                                <ead:item>15. Rosenzweig, Adele, to Ehrenberg [nee Sommer], Eva; 17
+                                    items.</ead:item>
+                                <ead:item>16. Rosenzweig, Adele, to Ehrenberg, Julie; 1
+                                    item.</ead:item>
+                                <ead:item>17. Rosenzweig, Adele, to Glatzer, Nahum N, 1929. 38
+                                    items.</ead:item>
+                                <ead:item>18. Rosenzweig, Adele, to Glatzer, Nahum N, 1930. 44
+                                    items.</ead:item>
+                                <ead:item>19. Rosenzweig, Adele, to Glatzer, Nahum N. 25 items,
+                                    1931â€”1932.</ead:item>
+                                <ead:item>20. Rosenzweig, Adele, to Sommer, Frau; 1 item.</ead:item>
+                                <ead:item>21. Rosenzweig, Adele, to Strauss, Frau; 1
+                                    item.</ead:item>
+                                <ead:item>22. Rosenzweig, Adele, to unknown; 2 items.</ead:item>
+                                <ead:item>23. Schwadron, Abraham, to Glatzer, Nahum N.; 1
+                                    item.</ead:item>
+                                <ead:item>24. Sichel, Karl H., to Glatzer, Nahum N.; 14
+                                    items.</ead:item>
+                                <ead:item>25. Simon, Ernst, to Glatzer, Nahum N. 1 item.</ead:item>
+                                <ead:item>26. Strauss, Eduard, to Glatzer, Nahum N.; 2
+                                    items.</ead:item>
+                                <ead:item>27. Strauss, Ilse, to Glatzer, Nahum N.; 1
+                                    item.</ead:item>
+                                <ead:item>28. Susman-Bendemann, M., to ?; 1 item.</ead:item>
+                                <ead:item>29. Trier, Carola S., to Glatzer, Nahum N.; 2
+                                    items.</ead:item>
+                                <ead:item>30. Tuteur, Richard, to Glatzer, Nahum N.; 5
+                                    items.</ead:item>
+                                <ead:item>31. Unknown; 1 item.</ead:item>
+                                <ead:item>32. Unsorted Hebrew Correspondence; 28 items.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 3: Diaries of Franz Rosenzweig</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="file">
+                    <ead:did>
+                        <ead:container>Folder</ead:container>
+                    </ead:did>
+                    <ead:scopecontent>
+                        <ead:list>
+                            <ead:item>33. Part 1, 14 December 1905â€”29 March 1906; 28
+                                items.</ead:item>
+                            <ead:item>34. Part 2, 1 April 1906â€”22 September 1906; 25
+                                items.</ead:item>
+                            <ead:item>35. Part 3, 29 September 1906â€”4 March 1908; 29
+                                items.</ead:item>
+                            <ead:item>36. Part 4, 6 March 1908â€”22 June 1908; 34 items.</ead:item>
+                            <ead:item>37. Part 5, 9 July 1914â€”18 April 1922; 36 items.</ead:item>
+                            <ead:item>38. 9 June, 13 September, and 18 June 1922; 5
+                                items.</ead:item>
+                        </ead:list>
+                    </ead:scopecontent>
+                </ead:c02>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 4: Offprints, pamphlets, and articles by Franz
+                        Rosenzweig</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="file">
+                    <ead:did>
+                        <ead:container>Folder</ead:container>
+                    </ead:did>
+                    <ead:scopecontent>
+                        <ead:list>
+                            <ead:item>39. Articles on music: Einleitendes; Kammermusik;
+                                Beethovensche Klaviersonaten; Geistlicher und Geistiger Gesang;
+                                Instrumentalkonzerte; Schubert; Die vorbeethovensche Sinfonie; Die
+                                Sinfonie Beethovens und die nachbeethovensche Sinfonie; Katholische
+                                Kirchenmusik aus zwei Jahrtausenden; 1 item.</ead:item>
+                            <ead:item>40. Die Bauleute Ã¼ber das Gesetz; 1 item.</ead:item>
+                            <ead:item>41. Bildungâ€”und sein Ende A; 1 item.</ead:item>
+                            <ead:item>42. Bildungâ€”und sein Ende B; 1 item.</ead:item>
+                            <ead:item>43. Das Chanukkahlied; 1 item.</ead:item>
+                            <ead:item>44. An Driesen; 1 item.</ead:item>
+                            <ead:item>45. â€œDer Ewigeâ€ Mendelssohn und der Gottesname; 1
+                                item.</ead:item>
+                            <ead:item>46. Das Heimholerjahr; 1 item.</ead:item>
+                            <ead:item>47. Der Herr der Welt; 1 item.</ead:item>
+                            <ead:item>48. Der Knecht Gottes; 2 items.</ead:item>
+                            <ead:item>49. Musiklexika; 1 item.</ead:item>
+                            <ead:item>50. Nachrufe auf Rabbiner N. A. Nobel; 1 item.</ead:item>
+                            <ead:item>51. Nehemiah Zvi Nobel: a rabbi who cast a spell; 1
+                                item.</ead:item>
+                            <ead:item>52. Paralipomena; 3 items.</ead:item>
+                            <ead:item>53. Die SachverstÓ“ndigen, von Dr. Adam Bund; 1
+                                item.</ead:item>
+                            <ead:item>54. Die Schrift und Luther; 1 item.</ead:item>
+                            <ead:item>55. Der Tischdank; 1 item.</ead:item>
+                            <ead:item>56. Unmittelbare Einwirkung der hebrÓ“ischen Bibel auf Goehes
+                                Sprache; 1 item.</ead:item>
+                            <ead:item>57. An Unpublished Letter of Franz Rosenzweig; 2
+                                items.</ead:item>
+                            <ead:item>58. Zeit Ists . . . ; 1 item.</ead:item>
+                            <ead:item>59. Zum zweiten Band der Encyclopaedia Judaica; 1
+                                item.</ead:item>
+                        </ead:list>
+                    </ead:scopecontent>
+                </ead:c02>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 5: Galley Proofs</ead:unittitle>
+                    <ead:container type="box">Box 5</ead:container>
+                </ead:did>
+                <ead:scopecontent>
+                    <ead:p>Unbound galley proof of Der Stern der ErlÃ¶sung with corrections by FR.
+                        12 items.</ead:p>
+                </ead:scopecontent>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 6: Personal Records</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="file">
+                    <ead:did>
+                        <ead:container>Box 6</ead:container>
+                        <ead:container>Folder</ead:container>
+                    </ead:did>
+                    <ead:scopecontent>
+                        <ead:list>
+                            <ead:item>1. Diplomas, 1896, 1905; 2 items.</ead:item>
+                            <ead:item>2. Educational Certificates, 1905, University of GÃ¶ttingen;
+                                1906, University of Munich; 1907, University of Freiburg; 1910,
+                                University of Freiburg; 1912, University of Berlin; 1913; 6
+                                items.</ead:item>
+                            <ead:item>3. Registration book, 1905, University of GÃ¶ttingen; 1
+                                item.</ead:item>
+                            <ead:item>4. Registration book, 1905-1906, Munich; 1 item.</ead:item>
+                            <ead:item>5. Registration book, 1906-07, Freiburg; 1 item.</ead:item>
+                            <ead:item>6. Registration book, 1908, University of Berlin; 1
+                                item.</ead:item>
+                            <ead:item>7. Registration book, 1909-12, University of Berlin; 1
+                                item.</ead:item>
+                        </ead:list>
+                    </ead:scopecontent>
+                </ead:c02>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 7: Ephemera</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 7.1: Franz Rosenzweig</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Folder</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>8. Envelopes; 10 items.</ead:item>
+                                <ead:item>9. Freies JÃ¼disches Lehrhaus, letter; 1 item.</ead:item>
+                                <ead:item>10. Freies JÃ¼disches Lehrhaus, poster; 1 item.</ead:item>
+                                <ead:item>11. Freies JÃ¼disches Lehrhaus, program; 1
+                                    item.</ead:item>
+                                <ead:item>12. Miscelaneous; 8 items.</ead:item>
+                                <ead:item>13. Miscelaneous notes; 3 items.</ead:item>
+                                <ead:item>14. Newspaper clipping concerning Adele Rosenzweigâ€™s
+                                    66th birthday; 1 item.</ead:item>
+                                <ead:item>15. Postcards, bookstores; 3 items.</ead:item>
+                                <ead:item>16. Postcards, parental home; 2 items.</ead:item>
+                                <ead:item>17. Prospectus, Sechzig Hymnen und Gedichte des Jehuda
+                                    Halevi; 1 item.</ead:item>
+                                <ead:item>18. Prospectus, Der Stern der ErlÃ¶sung; 1
+                                    item.</ead:item>
+                                <ead:item>19. Record of Innoculations; 1 item.</ead:item>
+                                <ead:item>20. Rosenzweigâ€™s Tallit; 1 item.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 7.2: Nahum N. Glatzer</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Folder</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>21. Business cards; 2 items.</ead:item>
+                                <ead:item>22. Material concerning Martin Buber; 9 items.</ead:item>
+                                <ead:item>23. Materials from exhibit; 22 items.</ead:item>
+                                <ead:item>24. Miscelaneous; 5 items.</ead:item>
+                                <ead:item>25. Notes, assorted; 3 items.</ead:item>
+                                <ead:item>26. Notes concerning Adele Rosenzweig correspondence; 2
+                                    items.</ead:item>
+                                <ead:item>27. Notes concerning FRâ€™s correspondence; 6
+                                    items.</ead:item>
+                                <ead:item>28. Notes concerning FRâ€™s writings and career; 9
+                                    items.</ead:item>
+                                <ead:item>29. Notes concerning Paralipomena; 1 item.</ead:item>
+                                <ead:item>30. Notes concerning Rudolf Ehrenberg correspondence; 2
+                                    items.</ead:item>
+                                <ead:item>31. Notes concerning various correspondence; 23
+                                    items.</ead:item>
+                                <ead:item>32. Notes, conversation with unknown concerning FR; 1
+                                    item.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+                <ead:c02 level="subseries">
+                    <ead:did>
+                        <ead:unittitle>Subseries 7.3: Rosenstock-Huessy</ead:unittitle>
+                    </ead:did>
+                    <ead:c03 level="file">
+                        <ead:did>
+                            <ead:container>Folder</ead:container>
+                        </ead:did>
+                        <ead:scopecontent>
+                            <ead:list>
+                                <ead:item>33. Rosenstock-Huessy genealogical information; 4
+                                    items.</ead:item>
+                                <ead:item>34. Notes, speech; 1 item.</ead:item>
+                            </ead:list>
+                        </ead:scopecontent>
+                    </ead:c03>
+                </ead:c02>
+            </ead:c01>
+            <ead:c01 level="series">
+                <ead:did>
+                    <ead:unittitle>Series 8: Photographs</ead:unittitle>
+                </ead:did>
+                <ead:c02 level="file">
+                    <ead:did>
+                        <ead:container>Folder</ead:container>
+                    </ead:did>
+                    <ead:scopecontent>
+                        <ead:list>
+                            <ead:item>35. Buber, Martin; 1 item.</ead:item>
+                            <ead:item>36. Franz Rosenzweigâ€™s Grave; 2 items.</ead:item>
+                            <ead:item>37. Rosenzweig, Franz; 8 items.</ead:item>
+                            <ead:item>38. Rosenzweig, Georg and Adele (Alsberg); 2 items</ead:item>
+                        </ead:list>
+                    </ead:scopecontent>
+                </ead:c02>
+            </ead:c01>
+        </ead:dsc>
+    </ead:archdesc>
+</ead:ead>
