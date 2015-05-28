@@ -32,7 +32,7 @@ Oregon logo-->
 						University</addressline>
 					<addressline>419 21st Avenue South</addressline>
 					<addressline>Nashville, TN 37203-2427</addressline>
-					<addressline>Phone: (615) 322-2807</addressline>
+					<addressline>Phone: (615) 343-0372</addressline>
 					<addressline>URL: http://www.library.vanderbilt.edu/bandy/</addressline>
 				</address>
 			</publicationstmt>
@@ -67,29 +67,27 @@ Oregon logo-->
 			<unitdate type="inclusive" encodinganalog="245$f">unknown</unitdate>
 			<physdesc>
 				<!-- May need to recount slides -->
-				<extent encodinganalog="300$a">110 slides</extent>
+				<extent encodinganalog="300$a">118 slides</extent>
 				<physfacet encodinganalog="300$b"
-					><!--Optional brief description of appearance, materials, 
-		  or techniques if applicable--></physfacet>
+					>Glass slides in wooden storage box</physfacet>
 				<dimensions encodinganalog="300$c"
-					><!--State dimensions if applicable--></dimensions>
+					>3-3/8" x4"</dimensions>
 			</physdesc>
-			<abstract encodinganalog="5203_">A collection of nineteenth and twentieth century about
-				eighteenth century French history, books, and culture.</abstract>
+			<abstract encodinganalog="5203_">These slides contain images related to the eighteenth century and the Enlightenment, including book covers, portraits, paintings.</abstract>
 			<physloc>Library Annex</physloc>
 			<langmaterial><language encodinganalog="546" langcode="FR"/></langmaterial>
 		</did>
 		<phystech encodinganalog="340">
-			<p><!--Brief description of physical condition or equipment required; optional--></p>
+			<p>The glass lantern slides require a magic lantern or lantern slide projector. They have been digitized.</p>
 		</phystech>
 		<originalsloc encodinganalog="535">
-			<p><!--If materials described are reproductions, enter location of originals; optional--></p>
+			<p>These lantern slides are reproductions from various eighteenth century French books.</p>
 		</originalsloc>
 		<bioghist encodinganalog="545" id="a2">
 			<!--Enter ENCODINGANALOG value of 5450_ for biog. or 5451_ for historical note, or use 
 <head> element-->
-			<head><!--Enter heading for Biographical Note or Historical Note as applicable--></head>
-			<p><!--Text of biographical or historical note, in paragraphs; separate each with paragraph tags--></p>
+			<head>Morris Wachs, 1921-2001</head>
+			<p>Morris Wachs (1921-2001) was born in Brooklyn, New York on December 24, 1921 and died in Nashville on August 8, 2001. He was a graduate of Brooklyn College. He received his doctorate at the University of Wisconsin in 1959. He initially taught at DePauw University in Indiana, and then joined Vanderbilt University as associate professor in 1962, retiring in 1992 as Professor Emeritus, after 30 years of service. Professor Wachs was an eighteenth century specialist, with a focus on the poetry of Denis Diderot (1713-1784).  Wachs was the descendent of the great rabbinic Cohn family. He was fluent in Yiddish and Hebrew and took an interest in the development of the Judaica Collections in the Divinity School Library at Vanderbilt, playing a role in the acquisition of the Yiddish holdings. He created the annual Jacqueline Wachs Essay Prize for undergraduates in the French and Italian Writing Competition in memory of his wife. Jacqueline Touret Wachs was a long-time senior lecturer with the Department of French & Italian at Vanderbilt. Wachs was well known for his knowledge of the French Enlightenment. As a bibliophile, he helped build the library’s collection of eighteenth-century French literature. He served as a member and chair of the executive committee of the Modern Language Association of America on the French Literature of the Eighteenth Century section.  </p>
 		</bioghist>
 		<scopecontent encodinganalog="5202_" id="a3">
 			<p><!--Text of the scope and content note, in paragraphs; separate each with 
