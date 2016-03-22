@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="http://ead3.archivists.org/schema/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/sterkenburgsara/EAD3/blob/master/ead3.xsd  https://raw.githubusercontent.com/sterkenburgsara/EAD3/master/ead3.xsd">
+    <control>
+        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">MSS058</recordid>
+        <filedesc>
+            <titlestmt>
+                <titleproper></titleproper>
+            </titlestmt>
+            <publicationstmt>
+                <publisher></publisher>
+                <date></date>
+                <address> 
+                    <addressline></addressline> 
+                    <addressline></addressline> 
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <maintenancestatus value="new"/>
+        <maintenanceagency countrycode="US">
+            <agencycode>TNJ</agencycode>
+            <agencyname></agencyname>
+        </maintenanceagency>
+        <maintenancehistory>
+            <maintenanceevent>
+                <eventtype value="created"/>
+                <eventdatetime standarddatetime="2016-03-22">March 22, 2016</eventdatetime>
+                <agenttype value="human"/>
+                <agent/>
+                <eventdescription/>
+            </maintenanceevent>
+        </maintenancehistory>
+    </control>
+    <archdesc level="collection">
+        <did>
+            <repository>
+                <corpname source="NAF" identifier="https://lccn.loc.gov/no2012143148">
+                    <part>Jean and Alexander Heard Library</part>
+                    <part>Special Collections and University Archives</part>
+                </corpname>
+                <address>
+                    <addressline>419 21st Ave S.</addressline>
+                    <addressline>Nashville, TN 37203</addressline>
+                </address>
+            </repository>
+            <origination>
+                <persname>
+                    <part></part>
+                </persname>
+            </origination>
+            <unittitle></unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+                <daterange>
+                    <fromdate standarddate=""></fromdate>
+                    <todate standarddate=""></todate>
+                </daterange>
+            </unitdatestructured>
+            <unitdatestructured unitdatetype="bulk">
+                <daterange>
+                    <fromdate standarddate=""></fromdate>
+                    <todate standarddate=""></todate>
+                </daterange>
+            </unitdatestructured>
+            <physdescset>
+                <physdescstructured physdescstructuredtype="carrier" coverage="whole">
+                    <quantity></quantity>
+                    <unittype></unittype>
+                </physdescstructured>
+                <physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
+                    <quantity></quantity>
+                    <unittype></unittype>
+                </physdescstructured>
+            </physdescset>
+            <abstract></abstract>
+            <langmaterial>
+                <languageset>
+                    <language></language>
+                    <language></language>
+                    <script></script>
+                </languageset>
+                <descriptivenote>
+                    <p></p>
+                </descriptivenote>
+            </langmaterial>
+        </did>
+        <accessrestrict>
+            <head></head>
+            <p></p>
+        </accessrestrict>
+        <userestrict>
+            <head>Copyright</head>
+            <p>Individuals requesting reproductions expressly assume the responsibility for
+                compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et
+                seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special 
+                Collections and University Archives and its staff in connection with any disputes
+                arising from the Copyright Act, over the reproduction of material at the request of
+                patrons. For more information please visit the following website:
+                http://www.loc.gov/copyright/title17/.</p>
+        </userestrict>
+        <acqinfo>
+            <head>Source of acquisition</head>
+            <p></p>
+        </acqinfo>
+        <processinfo>
+            <head>Processing Information</head>
+            <p>Collection processed by [insert name here]</p>
+        </processinfo>
+        <arrangement>
+            <head>Arrangement</head>
+            <p>The collection is arranged into [insert #] series</p>
+            <list>
+                <item>[Series 1 topic]</item>
+                <item>[Series 2 topic]</item>
+            </list>
+        </arrangement>
+        <scopecontent>
+            <head>Scope and Content</head>
+            <p></p>
+        </scopecontent>
+        <bioghist>
+            <head>Biographical Sketch</head>
+            <p></p>
+        </bioghist>
+        <controlaccess>
+            <persname relator="creator"
+                identifier="">
+                <part></part>
+                <part></part>
+            </persname>
+            <subject source="lcsh" identifier="">
+                <part></part>
+                <part></part>
+            </subject>
+        </controlaccess>
+        <dsc>
+            <head>Detailed Contents</head>
+            <p>The following section contains a detailed list of the materials in the
+                collection.</p>
+            <c01 level="series">
+                <did>
+                    <unitid>Series 1</unitid>
+                    <unittitle>[Series 1 topic (from above)</unittitle>
+                    <unitdatestructured unitdatetype="inclusive">
+                            <daterange>
+                                <fromdate standarddate=""></fromdate>
+                                <todate standarddate=""></todate>
+                            </daterange>
+                    </unitdatestructured>
+                </did>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                        <container></container>
+                    </did>
+                    <scopecontent>
+                        <p></p>
+                    </scopecontent>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                        <container></container>
+                    </did>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                        <container></container>
+                    </did>
+                </c02>
+            </c01>
+            <c01 level="series">
+                <did>
+                    <unitid>Series 2</unitid>
+                    <unittitle>[Series 2 topic (from above)]</unittitle>
+                    <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                    <container></container>
+                </did>
+                <scopecontent>
+                    <p></p>
+                </scopecontent>
+                <controlaccess>
+                    <persname relator="subject" source="lcnaf"
+                        identifier="">
+                        <part></part>
+                        <part></part>
+                    </persname>
+                    <persname relator="subject" source="lcnaf"
+                        identifier="">
+                        <part></part>
+                        <part></part>
+                    </persname>
+                </controlaccess>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>
