@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns="http://ead3.archivists.org/schema/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://github.com/HeardLibrary/finding-aids/blob/master/Schema/ead3.sch  https://raw.githubusercontent.com/HeardLibrary/finding-aids/master/Schema/ead3.sch">
+    xsi:schemaLocation="https://github.com/HeardLibrary/finding-aids/blob/master/Schema/ead3.xsd  https://raw.githubusercontent.com/HeardLibrary/finding-aids/master/Schema/ead3.xsd">
     <control>
         <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">MSS058</recordid>
         <filedesc>
