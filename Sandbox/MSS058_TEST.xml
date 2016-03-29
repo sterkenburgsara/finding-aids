@@ -45,39 +45,47 @@
                 </address>
             </repository>
             <origination>
-                <persname>
-                    <part></part>
+                <!-- If an authority record exists for a creator, insert name in the correct order according to that record and include NAF URI in attribute "identifier" -->
+                <persname identifier="https://lccn.loc.gov/nr89000621">
+                    <part>Bryan, Charles Faulkner</part>
                 </persname>
             </origination>
-            <unittitle></unittitle>
+            <!-- Ask Jodie Gambill about label tags - do we need to tell it specific labels, or could we built that in another way? -->
+            <!-- Do not include definite or indefinite articles at front of titles -->
+            <unittitle label="Title">Charles Faulkner Bryan Papers</unittitle>
             <unitdatestructured unitdatetype="inclusive">
                 <daterange>
-                    <fromdate standarddate=""></fromdate>
-                    <todate standarddate=""></todate>
+                    <fromdate standarddate="1948">1947</fromdate>
+                    <todate standarddate="1955">1983</todate>
                 </daterange>
             </unitdatestructured>
             <unitdatestructured unitdatetype="bulk">
                 <daterange>
-                    <fromdate standarddate=""></fromdate>
-                    <todate standarddate=""></todate>
+                    <fromdate standarddate="1950">1950</fromdate>
+                    <todate standarddate="1955">1955</todate>
                 </daterange>
             </unitdatestructured>
             <physdescset>
+                <!-- # of boxes -->
                 <physdescstructured physdescstructuredtype="carrier" coverage="whole">
-                    <quantity></quantity>
-                    <unittype></unittype>
+                    <quantity>2</quantity>
+                    <unittype>boxes</unittype>
                 </physdescstructured>
+                <!-- shelf space (ask archives how to measure) -->
                 <physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
-                    <quantity></quantity>
-                    <unittype></unittype>
+                    <quantity>.42</quantity>
+                    <unittype>linear feet</unittype>
                 </physdescstructured>
             </physdescset>
-            <abstract></abstract>
+            <abstract>Box of materials about Charles Faulkner Bryan, one of Tennessee's most important musicians, composers, and collectors of folk music.</abstract>
             <langmaterial>
                 <languageset>
-                    <language></language>
-                    <language></language>
-                    <script></script>
+                    <!-- Repeat however many times necessary to list all the languages present in the collection -->
+                    <language>English</language>
+                    <language>Russian</language>
+                    <!-- script means the designation of the alphabet -->
+                    <script>Latin</script>
+                    <script>Cyrillic</script>
                 </languageset>
                 <descriptivenote>
                     <p></p>
@@ -142,10 +150,10 @@
                     <unitid>Series 1</unitid>
                     <unittitle>[Series 1 topic (from above)</unittitle>
                     <unitdatestructured unitdatetype="inclusive">
-                            <daterange>
-                                <fromdate standarddate=""></fromdate>
-                                <todate standarddate=""></todate>
-                            </daterange>
+                        <daterange>
+                            <fromdate standarddate=""></fromdate>
+                            <todate standarddate=""></todate>
+                        </daterange>
                     </unitdatestructured>
                 </did>
                 <c02 level="file">
