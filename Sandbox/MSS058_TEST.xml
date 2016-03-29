@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns="http://ead3.archivists.org/schema/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://github.com/sterkenburgsara/EAD3/blob/master/ead3.xsd  https://raw.githubusercontent.com/sterkenburgsara/EAD3/master/ead3.xsd">
+    xsi:schemaLocation="https://github.com/HeardLibrary/finding-aids/blob/master/Schema/ead3.sch  https://raw.githubusercontent.com/HeardLibrary/finding-aids/master/Schema/ead3.sch">
     <control>
         <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">MSS058</recordid>
         <filedesc>
             <titlestmt>
-                <titleproper></titleproper>
+                <titleproper>The Charles Faulkner Bryan Collection</titleproper>
             </titlestmt>
             <publicationstmt>
-                <publisher></publisher>
-                <date></date>
+                <publisher>Vanderbilt University Libraries</publisher>
+                <date>2007</date>
                 <address> 
-                    <addressline></addressline> 
-                    <addressline></addressline> 
+                    <addressline>419 21st Ave. S.</addressline> 
+                    <addressline>Nashville, TN 37203</addressline>
                 </address>
             </publicationstmt>
         </filedesc>
         <maintenancestatus value="new"/>
         <maintenanceagency countrycode="US">
             <agencycode>TNJ</agencycode>
-            <agencyname></agencyname>
+            <agencyname>Vanderbilt University Libraries</agencyname>
         </maintenanceagency>
         <maintenancehistory>
             <maintenanceevent>
                 <eventtype value="created"/>
-                <eventdatetime standarddatetime="2016-03-22">March 22, 2016</eventdatetime>
+                <eventdatetime standarddatetime="2016-03">March, 2016</eventdatetime>
                 <agenttype value="human"/>
-                <agent/>
-                <eventdescription/>
+                <agent>Metadata Committee</agent>
+                <eventdescription>Created EAD3 from original (nondigital) finding aid</eventdescription>
             </maintenanceevent>
         </maintenancehistory>
     </control>
