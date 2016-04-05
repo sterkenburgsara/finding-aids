@@ -62,8 +62,8 @@
             <unittitle label="Title">Charles Faulkner Bryan Papers</unittitle>
             <unitdatestructured unitdatetype="inclusive">
                 <daterange>
-                    <fromdate standarddate="1948">1947</fromdate>
-                    <todate standarddate="1955">1983</todate>
+                    <fromdate standarddate="1947">1947</fromdate>
+                    <todate standarddate="1983">1983</todate>
                 </daterange>
             </unitdatestructured>
             <unitdatestructured unitdatetype="bulk">
@@ -101,8 +101,9 @@
             </langmaterial>
         </did>
         <accessrestrict>
-            <head></head>
-            <p></p>
+            <head>Access and Use</head>
+            <!-- Changes based on collection -->
+            <p>Collection is open for researchers with no restrictions. Items in this collection do not circulate and may be used in-house only.</p>
         </accessrestrict>
         <userestrict>
             <head>Copyright</head>
@@ -111,49 +112,52 @@
                 seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special 
                 Collections and University Archives and its staff in connection with any disputes
                 arising from the Copyright Act, over the reproduction of material at the request of
-                patrons. For more information please visit the following website:
-                http://www.loc.gov/copyright/title17/.</p>
+                patrons. For more information please visit the following website:</p>
+            <p>http://www.loc.gov/copyright/title17/</p>
         </userestrict>
         <prefercite>
             <head>Preferred citation</head>
-            <p></p>
+            <p>Charles Faulkner Bryan Collection, Vanderbilt University Special Collections</p>
         </prefercite>
+        <!-- Check donor file in Special Collections -->
         <acqinfo>
             <head>Source of acquisition</head>
-            <p></p>
+            <p>[Insert data here]</p>
         </acqinfo>
         <processinfo>
             <head>Processing Information</head>
-            <p>Collection processed by [insert name here]</p>
+            <p>Collection processed by VUSC staff.</p>
         </processinfo>
         <arrangement>
             <head>Arrangement</head>
-            <p>The collection is arranged into [insert #] series</p>
+            <p>The collection is arranged into 3 series</p>
             <list>
-                <item>[Series 1 topic]</item>
-                <item>[Series 2 topic]</item>
+                <item>Correspondence</item>
+                <item>Sheet Music</item>
+                <item>Other</item>
             </list>
         </arrangement>
         <scopecontent>
             <head>Scope and Content</head>
-            <p></p>
+            <p>Collection is .42 linear feet ... of materials relating to Charles Faulkner Bryan. It includes photocopies of correspondence .... sheet music ... two 8x10 photographs of Bryan in this small collection.</p>
         </scopecontent>
         <bioghist>
             <head>Biographical Sketch</head>
-            <p></p>
+            <p>CFB born in McMinnville, TN on July 26, 1911. He became one of Tennessee's most important musicians, composers, and collectors of folk music.</p>
         </bioghist>
         <controlaccess>
             <head>Indexing Terms</head>
             <p>This collection is indexed under the following headings in the catalog of the Vanderbilt University Libraries. Researchers interested in materials about related topics should consult the catalog using these headings.</p>
-            <persname source="lcsh" relator="creator"
-                identifier="">
-                <part></part>
+            <!-- Include terms according to archivist judgment -->
+            <persname source="lcnaf"
+                identifier="https://lccn.loc.gov/n50035654">
+                <part>Davidson, Donald, 1893-1968</part>
             </persname>
-            <subject source="lcsh" identifier="">
-                <part></part>
+            <subject source="lcsh" identifier="https://lccn.loc.gov/sh85049843">
+                <part>Folk music</part>
             </subject>
-            <genreform>
-                <part></part>
+            <genreform identifier="http://id.loc.gov/authorities/genreForms/gf2014026809">
+                <part>Folk music</part>
             </genreform>
             <geogname>
                 <part></part>
@@ -166,30 +170,30 @@
             <c01 level="series">
                 <did>
                     <unitid>Series 1</unitid>
-                    <unittitle>[Series 1 topic (from above)]</unittitle>
+                    <unittitle>Correspondence</unittitle>
                     <unitdatestructured unitdatetype="inclusive">
                         <daterange>
-                            <fromdate standarddate=""></fromdate>
-                            <todate standarddate=""></todate>
+                            <fromdate standarddate="">1951</fromdate>
+                            <todate standarddate="">1955</todate>
                         </daterange>
                     </unitdatestructured>
                 </did>
-                <c02 level="file">
+                <c02 level="subseries">
                     <did>
-                        <unittitle></unittitle>
+                        <unittitle>Photocopies of correspondence</unittitle>
                         <unitdate unitdatetype="inclusive" normal=""></unitdate>
                         <container></container>
                     </did>
+                    <c03 level="file">
+                        <did>
+                            <unittitle></unittitle>
+                            <unitdate></unitdate>
+                            <container></container>
+                        </did>
+                    </c03>
                     <scopecontent>
                         <p></p>
                     </scopecontent>
-                </c02>
-                <c02 level="file">
-                    <did>
-                        <unittitle></unittitle>
-                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
-                        <container></container>
-                    </did>
                 </c02>
                 <c02 level="file">
                     <did>
@@ -202,7 +206,7 @@
             <c01 level="series">
                 <did>
                     <unitid>Series 2</unitid>
-                    <unittitle>[Series 2 topic (from above)]</unittitle>
+                    <unittitle>Sheet Music</unittitle>
                     <unitdate unitdatetype="inclusive" normal=""></unitdate>
                     <container></container>
                 </did>
