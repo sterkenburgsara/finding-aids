@@ -106,7 +106,7 @@
         </did>
         <accessrestrict>
             <head>Access and Use</head>
-            <!-- Changes based on collection -->
+            <!-- This section will change based on collection at hand-->
             <p>Collection is open for researchers with no restrictions. Items in this collection do
                 not circulate and may be used in-house only.</p>
         </accessrestrict>
@@ -117,15 +117,15 @@
                 seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special
                 Collections and University Archives and its staff in connection with any disputes
                 arising from the Copyright Act, over the reproduction of material at the request of
-                patrons. For more information please visit the following website:</p>
-            <p>http://www.loc.gov/copyright/title17/</p>
+                patrons. For more information please visit the following website:
+                http://www.loc.gov/copyright/title17/.</p>
         </userestrict>
         <prefercite>
             <head>Preferred citation</head>
             <p>Charles Faulkner Bryan Collection, Vanderbilt University Special Collections</p>
         </prefercite>
-        <!-- Check donor file in Special Collections -->
         <acqinfo>
+            <!-- Check donor file in Special Collections -->
             <head>Source of acquisition</head>
             <p>[Insert data here]</p>
         </acqinfo>
@@ -187,33 +187,40 @@
                         </daterange>
                     </unitdatestructured>
                 </did>
+                <scopecontent>
+                    <p/>
+                </scopecontent>
                 <c02 level="subseries">
                     <did>
-                        <unittitle>Photocopies of correspondence</unittitle>
+                        <unittitle/>
                         <unitdate unitdatetype="inclusive" normal=""/>
                         <container/>
                     </did>
                     <scopecontent>
                         <p/>
                     </scopecontent>
-                    <c03 level="file">
+                    <c03>
                         <did>
                             <unittitle/>
                             <unitdate/>
                             <container/>
                         </did>
                     </c03>
-                </c02>
-                <c02 level="subseries">
-                    <did>
-                        <unittitle>Photocopies of correspondence with Donald Davidson</unittitle>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
-                    <scopecontent>
-                        <p/>
-                    </scopecontent>
-                    <c03 level="file">
+                    <c03>
+                        <did>
+                            <unittitle/>
+                            <unitdate/>
+                            <container/>
+                        </did>
+                    </c03>
+                    <c03>
+                        <did>
+                            <unittitle/>
+                            <unitdate/>
+                            <container/>
+                        </did>
+                    </c03>
+                    <c03>
                         <did>
                             <unittitle/>
                             <unitdate/>
@@ -226,15 +233,26 @@
                 <did>
                     <unitid>Series 2</unitid>
                     <unittitle>Sheet Music</unittitle>
-                    <unitdate unitdatetype="inclusive" normal=""/>
-                    <container/>
+                    <unitdatestructured unitdatetype="inclusive">
+                        <daterange>
+                            <fromdate/>
+                            <todate/>
+                        </daterange>
+                    </unitdatestructured>
                 </did>
                 <scopecontent>
-                    <p></p>
+                    <p/>
                 </scopecontent>
                 <c02 level="file">
                     <did>
-                        <unittitle></unittitle>
+                        <unittitle/>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container/>
+                    </did>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle/>
                         <unitdate unitdatetype="inclusive" normal=""/>
                         <container/>
                     </did>
@@ -244,17 +262,31 @@
                 <did>
                     <unitid>Series 3</unitid>
                     <unittitle>Other</unittitle>
-                    <unitdate unitdatetype="inclusive" normal=""/>
-                    <container/>
+                    <unitdate/>
+                    <physdesc></physdesc>
                 </did>
                 <scopecontent>
-                    <p></p>
+                    <p/>
                 </scopecontent>
                 <c02 level="file">
                     <did>
-                        <unittitle></unittitle>
+                        <unittitle/>
                         <unitdate unitdatetype="inclusive" normal=""/>
-                        <container></container>
+                        <container/>
+                    </did>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle/>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container/>
+                    </did>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle/>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container/>
                     </did>
                 </c02>
             </c01>
