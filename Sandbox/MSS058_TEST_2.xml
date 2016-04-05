@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ead xmlns="http://ead3.archivists.org/schema/" audience="external"
+<ead xmlns="http://ead3.archivists.org/schema/" audience ="external"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://github.com/HeardLibrary/finding-aids/blob/master/Schema/ead3.xsd  https://raw.githubusercontent.com/HeardLibrary/finding-aids/master/Schema/ead3.xsd">
     <control>
         <!--Insert Discover Archive URL if one exists (otherwise do not include URL in attribute). A unique ID value must be included in the body of the tag. Should begin with code for home library (e.g. VUSC for Special Collections; VUL for Law). Code should be followed by Collection # -->
-        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706"
-            >VUSC-MSS058</recordid>
+        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">VUSC-MSS058</recordid>
         <filedesc>
             <titlestmt>
                 <!-- Do not include definite or indefinite articles at front of titles (e.g. "the") -->
@@ -16,8 +15,8 @@
                 <!-- All libraries creating EAD should refer to publishing agent generally as "Vanderbilt University Libraries" -->
                 <publisher>Vanderbilt University Libraries</publisher>
                 <date>2007</date>
-                <address>
-                    <addressline>419 21st Ave. S.</addressline>
+                <address> 
+                    <addressline>419 21st Ave. S.</addressline> 
                     <addressline>Nashville, TN 37203</addressline>
                 </address>
             </publicationstmt>
@@ -36,8 +35,7 @@
                 <eventdatetime standarddatetime="2016-03">March, 2016</eventdatetime>
                 <agenttype value="human"/>
                 <agent>Metadata Committee</agent>
-                <eventdescription>Created EAD3 from original (nondigital) finding
-                    aid</eventdescription>
+                <eventdescription>Created EAD3 from original (nondigital) finding aid</eventdescription>
             </maintenanceevent>
         </maintenancehistory>
     </control>
@@ -86,9 +84,7 @@
                     <unittype>linear feet</unittype>
                 </physdescstructured>
             </physdescset>
-            <abstract>This collection consists of materials about Charles Faulkner Bryan, one of
-                Tennessee's most important musicians, composers, and collectors of folk
-                music.</abstract>
+            <abstract>This collection consists of materials about Charles Faulkner Bryan, one of Tennessee's most important musicians, composers, and collectors of folk music.</abstract>
             <langmaterial>
                 <languageset>
                     <!-- Repeat however many times necessary to list all the languages present in the collection -->
@@ -105,16 +101,14 @@
             </langmaterial>
         </did>
         <accessrestrict>
-            <head>Access and Use</head>
-            <!-- This section will change based on collection at hand-->
-            <p>Collection is open for researchers with no restrictions. Items in this collection do
-                not circulate and may be used in-house only.</p>
+            <head></head>
+            <p></p>
         </accessrestrict>
         <userestrict>
             <head>Copyright</head>
             <p>Individuals requesting reproductions expressly assume the responsibility for
                 compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et
-                seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special
+                seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special 
                 Collections and University Archives and its staff in connection with any disputes
                 arising from the Copyright Act, over the reproduction of material at the request of
                 patrons. For more information please visit the following website:
@@ -122,54 +116,47 @@
         </userestrict>
         <prefercite>
             <head>Preferred citation</head>
-            <p>Charles Faulkner Bryan Collection, Vanderbilt University Special Collections</p>
+            <p></p>
         </prefercite>
         <acqinfo>
-            <!-- Check donor file in Special Collections -->
             <head>Source of acquisition</head>
-            <p>[Insert data here]</p>
+            <p></p>
         </acqinfo>
         <processinfo>
             <head>Processing Information</head>
-            <p>Collection processed by VUSC staff.</p>
+            <p>Collection processed by [insert name here]</p>
         </processinfo>
         <arrangement>
             <head>Arrangement</head>
-            <p>The collection is arranged into 3 series</p>
+            <p>The collection is arranged into [insert #] series</p>
             <list>
-                <item>Correspondence</item>
-                <item>Sheet Music</item>
-                <item>Other</item>
+                <item>[Series 1 topic]</item>
+                <item>[Series 2 topic]</item>
             </list>
         </arrangement>
         <scopecontent>
             <head>Scope and Content</head>
-            <p>Collection is .42 linear feet ... of materials relating to Charles Faulkner Bryan. It
-                includes photocopies of correspondence .... sheet music ... two 8x10 photographs of
-                Bryan in this small collection.</p>
+            <p></p>
         </scopecontent>
         <bioghist>
             <head>Biographical Sketch</head>
-            <p>CFB born in McMinnville, TN on July 26, 1911. He became one of Tennessee's most
-                important musicians, composers, and collectors of folk music.</p>
+            <p></p>
         </bioghist>
         <controlaccess>
             <head>Indexing Terms</head>
-            <p>This collection is indexed under the following headings in the catalog of the
-                Vanderbilt University Libraries. Researchers interested in materials about related
-                topics should consult the catalog using these headings.</p>
-            <!-- Include terms according to archivist judgment -->
-            <persname source="lcnaf" identifier="https://lccn.loc.gov/n50035654">
-                <part>Davidson, Donald, 1893-1968</part>
+            <p>This collection is indexed under the following headings in the catalog of the Vanderbilt University Libraries. Researchers interested in materials about related topics should consult the catalog using these headings.</p>
+            <persname source="lcsh" relator="creator"
+                identifier="">
+                <part></part>
             </persname>
-            <subject source="lcsh" identifier="https://lccn.loc.gov/sh85049843">
-                <part>Folk music</part>
+            <subject source="lcsh" identifier="">
+                <part></part>
             </subject>
-            <genreform identifier="http://id.loc.gov/authorities/genreForms/gf2014026809">
-                <part>Folk music</part>
+            <genreform>
+                <part></part>
             </genreform>
             <geogname>
-                <part/>
+                <part></part>
             </geogname>
         </controlaccess>
         <dsc>
@@ -179,116 +166,61 @@
             <c01 level="series">
                 <did>
                     <unitid>Series 1</unitid>
-                    <unittitle>Correspondence</unittitle>
+                    <unittitle>[Series 1 topic (from above)]</unittitle>
                     <unitdatestructured unitdatetype="inclusive">
                         <daterange>
-                            <fromdate standarddate="">1951</fromdate>
-                            <todate standarddate="">1955</todate>
+                            <fromdate standarddate=""></fromdate>
+                            <todate standarddate=""></todate>
                         </daterange>
                     </unitdatestructured>
                 </did>
-                <scopecontent>
-                    <p/>
-                </scopecontent>
-                <c02 level="subseries">
+                <c02 level="file">
                     <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                        <container></container>
                     </did>
                     <scopecontent>
-                        <p/>
+                        <p></p>
                     </scopecontent>
-                    <c03>
-                        <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
-                        </did>
-                    </c03>
-                    <c03>
-                        <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
-                        </did>
-                    </c03>
-                    <c03>
-                        <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
-                        </did>
-                    </c03>
-                    <c03>
-                        <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
-                        </did>
-                    </c03>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                        <container></container>
+                    </did>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                        <container></container>
+                    </did>
                 </c02>
             </c01>
             <c01 level="series">
                 <did>
                     <unitid>Series 2</unitid>
-                    <unittitle>Sheet Music</unittitle>
-                    <unitdatestructured unitdatetype="inclusive">
-                        <daterange>
-                            <fromdate/>
-                            <todate/>
-                        </daterange>
-                    </unitdatestructured>
+                    <unittitle>[Series 2 topic (from above)]</unittitle>
+                    <unitdate unitdatetype="inclusive" normal=""></unitdate>
+                    <container></container>
                 </did>
                 <scopecontent>
-                    <p/>
+                    <p></p>
                 </scopecontent>
-                <c02 level="file">
-                    <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
-                </c02>
-                <c02 level="file">
-                    <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
-                </c02>
-            </c01>
-            <c01 level="series">
-                <did>
-                    <unitid>Series 3</unitid>
-                    <unittitle>Other</unittitle>
-                    <unitdate/>
-                    <physdesc></physdesc>
-                </did>
-                <scopecontent>
-                    <p/>
-                </scopecontent>
-                <c02 level="file">
-                    <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
-                </c02>
-                <c02 level="file">
-                    <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
-                </c02>
-                <c02 level="file">
-                    <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
-                </c02>
+                <controlaccess>
+                    <persname relator="subject" source="lcnaf"
+                        identifier="">
+                        <part></part>
+                        <part></part>
+                    </persname>
+                    <persname relator="subject" source="lcnaf"
+                        identifier="">
+                        <part></part>
+                        <part></part>
+                    </persname>
+                </controlaccess>
             </c01>
         </dsc>
     </archdesc>
