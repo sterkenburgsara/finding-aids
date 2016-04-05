@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ead xmlns="http://ead3.archivists.org/schema/" audience ="external"
+<ead xmlns="http://ead3.archivists.org/schema/" audience="external"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://github.com/HeardLibrary/finding-aids/blob/master/Schema/ead3.xsd  https://raw.githubusercontent.com/HeardLibrary/finding-aids/master/Schema/ead3.xsd">
     <control>
         <!--Insert Discover Archive URL if one exists (otherwise do not include URL in attribute). A unique ID value must be included in the body of the tag. Should begin with code for home library (e.g. VUSC for Special Collections; VUL for Law). Code should be followed by Collection # -->
-        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">VUSC-MSS058</recordid>
+        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706"
+            >VUSC-MSS058</recordid>
         <filedesc>
             <titlestmt>
                 <!-- Do not include definite or indefinite articles at front of titles (e.g. "the") -->
@@ -15,8 +16,8 @@
                 <!-- All libraries creating EAD should refer to publishing agent generally as "Vanderbilt University Libraries" -->
                 <publisher>Vanderbilt University Libraries</publisher>
                 <date>2007</date>
-                <address> 
-                    <addressline>419 21st Ave. S.</addressline> 
+                <address>
+                    <addressline>419 21st Ave. S.</addressline>
                     <addressline>Nashville, TN 37203</addressline>
                 </address>
             </publicationstmt>
@@ -35,7 +36,8 @@
                 <eventdatetime standarddatetime="2016-03">March, 2016</eventdatetime>
                 <agenttype value="human"/>
                 <agent>Metadata Committee</agent>
-                <eventdescription>Created EAD3 from original (nondigital) finding aid</eventdescription>
+                <eventdescription>Created EAD3 from original (nondigital) finding
+                    aid</eventdescription>
             </maintenanceevent>
         </maintenancehistory>
     </control>
@@ -84,7 +86,9 @@
                     <unittype>linear feet</unittype>
                 </physdescstructured>
             </physdescset>
-            <abstract>This collection consists of materials about Charles Faulkner Bryan, one of Tennessee's most important musicians, composers, and collectors of folk music.</abstract>
+            <abstract>This collection consists of materials about Charles Faulkner Bryan, one of
+                Tennessee's most important musicians, composers, and collectors of folk
+                music.</abstract>
             <langmaterial>
                 <languageset>
                     <!-- Repeat however many times necessary to list all the languages present in the collection -->
@@ -103,13 +107,14 @@
         <accessrestrict>
             <head>Access and Use</head>
             <!-- Changes based on collection -->
-            <p>Collection is open for researchers with no restrictions. Items in this collection do not circulate and may be used in-house only.</p>
+            <p>Collection is open for researchers with no restrictions. Items in this collection do
+                not circulate and may be used in-house only.</p>
         </accessrestrict>
         <userestrict>
             <head>Copyright</head>
             <p>Individuals requesting reproductions expressly assume the responsibility for
                 compliance with all pertinent provisions of the Copyright Act, 17 U.S.C. ss101 et
-                seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special 
+                seq. Patrons further agree to indemnify and hold harmless the Vanderbilt Special
                 Collections and University Archives and its staff in connection with any disputes
                 arising from the Copyright Act, over the reproduction of material at the request of
                 patrons. For more information please visit the following website:</p>
@@ -139,18 +144,22 @@
         </arrangement>
         <scopecontent>
             <head>Scope and Content</head>
-            <p>Collection is .42 linear feet ... of materials relating to Charles Faulkner Bryan. It includes photocopies of correspondence .... sheet music ... two 8x10 photographs of Bryan in this small collection.</p>
+            <p>Collection is .42 linear feet ... of materials relating to Charles Faulkner Bryan. It
+                includes photocopies of correspondence .... sheet music ... two 8x10 photographs of
+                Bryan in this small collection.</p>
         </scopecontent>
         <bioghist>
             <head>Biographical Sketch</head>
-            <p>CFB born in McMinnville, TN on July 26, 1911. He became one of Tennessee's most important musicians, composers, and collectors of folk music.</p>
+            <p>CFB born in McMinnville, TN on July 26, 1911. He became one of Tennessee's most
+                important musicians, composers, and collectors of folk music.</p>
         </bioghist>
         <controlaccess>
             <head>Indexing Terms</head>
-            <p>This collection is indexed under the following headings in the catalog of the Vanderbilt University Libraries. Researchers interested in materials about related topics should consult the catalog using these headings.</p>
+            <p>This collection is indexed under the following headings in the catalog of the
+                Vanderbilt University Libraries. Researchers interested in materials about related
+                topics should consult the catalog using these headings.</p>
             <!-- Include terms according to archivist judgment -->
-            <persname source="lcnaf"
-                identifier="https://lccn.loc.gov/n50035654">
+            <persname source="lcnaf" identifier="https://lccn.loc.gov/n50035654">
                 <part>Davidson, Donald, 1893-1968</part>
             </persname>
             <subject source="lcsh" identifier="https://lccn.loc.gov/sh85049843">
@@ -160,7 +169,7 @@
                 <part>Folk music</part>
             </genreform>
             <geogname>
-                <part></part>
+                <part/>
             </geogname>
         </controlaccess>
         <dsc>
@@ -181,50 +190,73 @@
                 <c02 level="subseries">
                     <did>
                         <unittitle>Photocopies of correspondence</unittitle>
-                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
-                        <container></container>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container/>
                     </did>
+                    <scopecontent>
+                        <p/>
+                    </scopecontent>
                     <c03 level="file">
                         <did>
-                            <unittitle></unittitle>
-                            <unitdate></unitdate>
-                            <container></container>
+                            <unittitle/>
+                            <unitdate/>
+                            <container/>
                         </did>
                     </c03>
-                    <scopecontent>
-                        <p></p>
-                    </scopecontent>
                 </c02>
-                <c02 level="file">
+                <c02 level="subseries">
                     <did>
-                        <unittitle></unittitle>
-                        <unitdate unitdatetype="inclusive" normal=""></unitdate>
-                        <container></container>
+                        <unittitle>Photocopies of correspondence with Donald Davidson</unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container/>
                     </did>
+                    <scopecontent>
+                        <p/>
+                    </scopecontent>
+                    <c03 level="file">
+                        <did>
+                            <unittitle/>
+                            <unitdate/>
+                            <container/>
+                        </did>
+                    </c03>
                 </c02>
             </c01>
             <c01 level="series">
                 <did>
                     <unitid>Series 2</unitid>
                     <unittitle>Sheet Music</unittitle>
-                    <unitdate unitdatetype="inclusive" normal=""></unitdate>
-                    <container></container>
+                    <unitdate unitdatetype="inclusive" normal=""/>
+                    <container/>
                 </did>
                 <scopecontent>
                     <p></p>
                 </scopecontent>
-                <controlaccess>
-                    <persname relator="subject" source="lcnaf"
-                        identifier="">
-                        <part></part>
-                        <part></part>
-                    </persname>
-                    <persname relator="subject" source="lcnaf"
-                        identifier="">
-                        <part></part>
-                        <part></part>
-                    </persname>
-                </controlaccess>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container/>
+                    </did>
+                </c02>
+            </c01>
+            <c01 level="series">
+                <did>
+                    <unitid>Series 3</unitid>
+                    <unittitle>Other</unittitle>
+                    <unitdate unitdatetype="inclusive" normal=""/>
+                    <container/>
+                </did>
+                <scopecontent>
+                    <p></p>
+                </scopecontent>
+                <c02 level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container></container>
+                    </did>
+                </c02>
             </c01>
         </dsc>
     </archdesc>
