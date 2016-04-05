@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ead xmlns="http://ead3.archivists.org/schema/"
+<ead xmlns="http://ead3.archivists.org/schema/" audience ="external"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://github.com/HeardLibrary/finding-aids/blob/master/Schema/ead3.xsd  https://raw.githubusercontent.com/HeardLibrary/finding-aids/master/Schema/ead3.xsd">
     <control>
-        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">MSS058</recordid>
+        <!--Insert Discover Archive URL if one exists (otherwise do not include URL in attribute). A unique ID value must be included in the body of the tag. Should begin with code for home library (e.g. VUSC for Special Collections; VUL for Law). Code should be followed by Collection # -->
+        <recordid instanceurl="http://discoverarchive.vanderbilt.edu/handle/1803/4706">VUSC-MSS058</recordid>
         <filedesc>
             <titlestmt>
-                <titleproper>The Charles Faulkner Bryan Collection</titleproper>
+                <!-- Do not include definite or indefinite articles at front of titles (e.g. "the") -->
+                <titleproper>Charles Faulkner Bryan Collection</titleproper>
+                <author encodinganalog="contributor">Finding aid created by Molly Dohrmann</author>
             </titlestmt>
             <publicationstmt>
+                <!-- All libraries creating EAD should refer to publishing agent generally as "Vanderbilt University Libraries" -->
                 <publisher>Vanderbilt University Libraries</publisher>
                 <date>2007</date>
                 <address> 
@@ -22,6 +26,9 @@
             <agencycode>TNJ</agencycode>
             <agencyname>Vanderbilt University Libraries</agencyname>
         </maintenanceagency>
+        <conventiondeclaration>
+            <citation>DACS, version 2.0</citation>
+        </conventiondeclaration>
         <maintenancehistory>
             <maintenanceevent>
                 <eventtype value="created"/>
@@ -77,7 +84,7 @@
                     <unittype>linear feet</unittype>
                 </physdescstructured>
             </physdescset>
-            <abstract>Box of materials about Charles Faulkner Bryan, one of Tennessee's most important musicians, composers, and collectors of folk music.</abstract>
+            <abstract>This collection consists of materials about Charles Faulkner Bryan, one of Tennessee's most important musicians, composers, and collectors of folk music.</abstract>
             <langmaterial>
                 <languageset>
                     <!-- Repeat however many times necessary to list all the languages present in the collection -->
@@ -86,10 +93,11 @@
                     <!-- script means the designation of the alphabet -->
                     <script>Latin</script>
                     <script>Cyrillic</script>
+                    <!-- If more than one language, include note about bulk materials and their language if possible -->
+                    <descriptivenote>
+                        <p>Collection materials are primarily in English. Some items in Russian.</p>
+                    </descriptivenote>
                 </languageset>
-                <descriptivenote>
-                    <p></p>
-                </descriptivenote>
             </langmaterial>
         </did>
         <accessrestrict>
@@ -106,6 +114,10 @@
                 patrons. For more information please visit the following website:
                 http://www.loc.gov/copyright/title17/.</p>
         </userestrict>
+        <prefercite>
+            <head>Preferred citation</head>
+            <p></p>
+        </prefercite>
         <acqinfo>
             <head>Source of acquisition</head>
             <p></p>
@@ -131,15 +143,21 @@
             <p></p>
         </bioghist>
         <controlaccess>
-            <persname relator="creator"
+            <head>Indexing Terms</head>
+            <p>This collection is indexed under the following headings in the catalog of the Vanderbilt University Libraries. Researchers interested in materials about related topics should consult the catalog using these headings.</p>
+            <persname source="lcsh" relator="creator"
                 identifier="">
-                <part></part>
                 <part></part>
             </persname>
             <subject source="lcsh" identifier="">
                 <part></part>
-                <part></part>
             </subject>
+            <genreform>
+                <part></part>
+            </genreform>
+            <geogname>
+                <part></part>
+            </geogname>
         </controlaccess>
         <dsc>
             <head>Detailed Contents</head>
@@ -148,7 +166,7 @@
             <c01 level="series">
                 <did>
                     <unitid>Series 1</unitid>
-                    <unittitle>[Series 1 topic (from above)</unittitle>
+                    <unittitle>[Series 1 topic (from above)]</unittitle>
                     <unitdatestructured unitdatetype="inclusive">
                         <daterange>
                             <fromdate standarddate=""></fromdate>
