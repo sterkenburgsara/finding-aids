@@ -511,8 +511,9 @@
                         <list>
                             <defitem>
                                 <label>Item 1:</label>
-                                <item>Libretto for "Singing' Billy: An Opera in Two Acts" by Charles F. Bryan 
-                                    and Donald Davidson for a perfomance at George Peabody College August 9, 10, 1951 </item>
+                                <item>Libretto for "Singing' Billy: An Opera in Two Acts" by Charles
+                                    F. Bryan and Donald Davidson for a perfomance at George Peabody
+                                    College August 9, 10, 1951 </item>
                             </defitem>
                         </list>
                     </fileplan>
@@ -527,8 +528,62 @@
                         <list>
                             <defitem>
                                 <label>Item 1:</label>
-                                <item>Program - Dedication Ceremony - Bryan Fine Arts Building, Nov. 14, 1981, Tennessee Technological 
-                                    University, Cookeville, Tennessee</item>
+                                <item>Program - Dedication Ceremony - Bryan Fine Arts Building, Nov.
+                                    14, 1981, Tennessee Technological University, Cookeville,
+                                    Tennessee</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 32</unittitle>
+                        <unitdate unitdatetype="inclusive" normal="1983-09">September
+                            1983</unitdate>
+                        <container localtype="folder">32</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>Article, "Falconhurst : a legend of place and people" in
+                                    Tennessee Magazine, Sptember 1983</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>Accompanying letter from Mrs. Bryan, September 15, 1983</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 33</unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container localtype="folder">33</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>Photograph, Charles Faulkner Bryan</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 34</unittitle>
+                        <unitdate unitdatetype="inclusive" normal="1947">1947</unitdate>
+                        <container localtype="folder">34</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>Photograph, Robert Shaw congratulating Charles F. Bryan at
+                                    rehearsal of the Bell WItch Cantata in Carnegie Hall,
+                                    1947</item>
                             </defitem>
                         </list>
                     </fileplan>
