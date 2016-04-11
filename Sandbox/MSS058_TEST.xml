@@ -176,13 +176,14 @@
             <head>Detailed Contents</head>
             <p>The following section contains a detailed list of the materials in the
                 collection.</p>
+            <!-- PAM -->
             <c01 level="series">
                 <did>
                     <unitid>Series 1</unitid>
                     <unittitle>Correspondence</unittitle>
                     <unitdatestructured unitdatetype="inclusive">
                         <daterange>
-                            <fromdate standarddate="">1951</fromdate>
+                            <fromdate standarddate="">1948</fromdate>
                             <todate standarddate="">1955</todate>
                         </daterange>
                     </unitdatestructured>
@@ -192,47 +193,47 @@
                 </scopecontent>
                 <c02 level="subseries">
                     <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
+                        <container localtype="box">1</container>
+                        <container localtype="folder"/>
+                        <unittitle>Photocopies of Correspondence</unittitle>
+                        <unitdate unitdatetype="inclusive" normal="1948-1955"/>
                     </did>
                     <scopecontent>
                         <p/>
                     </scopecontent>
                     <c03>
                         <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
+                            <unittitle>Outgoing - September 28, 1948 - September 5, 1953</unittitle>
+                            <unittitle>Outgoing - September 21, 1953- December 7, 1953</unittitle>
+                            <unittitle>Outgoing - January 9, 1954 - June 14, 1955</unittitle>
                         </did>
                     </c03>
                     <c03>
                         <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
-                        </did>
-                    </c03>
-                    <c03>
-                        <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
-                        </did>
-                    </c03>
-                    <c03>
-                        <did>
-                            <unittitle/>
-                            <unitdate/>
-                            <container/>
+                            <container localtype="folder">1</container>
+                            <unittitle>Photocopies of Correspondence with Donald
+                                Davidson</unittitle>
+                            <unitdate unitdatetype="inclusive" normal="1950-1955"/>
+                            <unittitle>Incoming - October 14, 1950 - November 8, 1951</unittitle>
+                            <unittitle>Incoming - June 4, 1952 - July 13, 1952</unittitle>
+                            <unittitle>Incoming - August 15, 1952 - December 14, 1952</unittitle>
+                            <unittitle>Incoming - January 4, 1953 - March 29, 1953</unittitle>
+                            <unittitle>Incoming - April 2, 1953 - May 27, 1953</unittitle>
+                            <unittitle>Incoming - June 2, 1953 - August 25, 1953</unittitle>
+                            <unittitle>Incoming - September 4, 1953 - December 13, 1953</unittitle>
+                            <unittitle>Incoming - January 8, 1954 - August 10, 1954</unittitle>
+                            <unittitle>Incoming - September 13, 1954 - December 20, 1954</unittitle>
+                            <unittitle>Incoming - December 27, 1954 - December 8, 1955</unittitle>
                         </did>
                     </c03>
                 </c02>
             </c01>
+            <!-- SARA + JILL -->
             <c01 level="series">
                 <did>
                     <unitid>Series 2</unitid>
                     <unittitle>Sheet Music</unittitle>
+                    <!-- Dates not provided for this series in finding aid -->
                     <unitdatestructured unitdatetype="inclusive">
                         <daterange>
                             <fromdate/>
@@ -240,30 +241,263 @@
                         </daterange>
                     </unitdatestructured>
                 </did>
+                <!-- Did not think series warranted a specific scope note - not a large enough series (or collection). Perhaps this should be added only according to archivist judgment? -->
                 <scopecontent>
                     <p/>
                 </scopecontent>
                 <c02 level="file">
                     <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
+                        <unittitle>File 17</unittitle>
+                        <container localtype="folder">17</container>
                     </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"Down the Road"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>"I Heard the Bells on Christmas Day"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 3:</label>
+                                <item>"Longing"</item>
+                            </defitem>
+                            <defitem>
+                                <label>item 4:</label>
+                                <item>"To a Hall"</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
+                        <unittitle>File 18</unittitle>
+                        <container localtype="folder">18</container>
                     </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <!-- Where should we put additional descriptive text? Couldn't find a note field that was allowed in this section. Look this up... -->
+                                <item>"Flower in the Crannied Wall," words by Alfred Lord
+                                    Tennyson</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 19</unittitle>
+                        <container localtype="folder">19</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"The Hawthorn Tree"</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 20</unittitle>
+                        <container localtype="folder">20</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"The Low Country," from Singin' Billy</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 21: Songs for Children</unittitle>
+                        <container localtype="folder">21</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"About Buttons"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>The Circus Parade</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 3:</label>
+                                <item>"The Doctor"</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 22: Songs for Children</unittitle>
+                        <container localtype="folder">22</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"Fireflies"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>"Gas Station Man"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 3:</label>
+                                <item>"Go to Sleep"</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 23: Songs for Children</unittitle>
+                        <container localtype="folder">23</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"Hippity Hop"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>"If a Pig Wore a Wig"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 3:</label>
+                                <item>"Mary Middling"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 4:</label>
+                                <item>"Mary Middling #2"</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 24: Songs for Children</unittitle>
+                        <container localtype="folder">24</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"The Postman"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>"Rain"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 3:</label>
+                                <item>"Snow"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 4:</label>
+                                <item>"The Tractor"</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 25</unittitle>
+                        <container localtype="folder">25</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"East Gospel"</item>
+                            </defitem>
+                            <defitem>
+                                <label>Item 2:</label>
+                                <item>"Peace in the Valley," from Strangers in this World words by
+                                    Brainard Cheney and music by C.F. Bryan</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 26</unittitle>
+                        <unitdate unitdatetype="inclusive" normal="1950">1950</unitdate>
+                        <container localtype="folder">26</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>Tennessee Folk Songs, collected by George Boswell; arranged by
+                                    Charles F. Bryan for use in the Tennessee public schools,
+                                    1950</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 27</unittitle>
+                        <container localtype="folder">27</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"Then," by William Stafford and C.F. Bryan</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02>
+                    <did>
+                        <unittitle>File 28</unittitle>
+                        <container localtype="folder">28</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"These Are the Times," by Thomas Paine and C.F. Bryan</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
+                </c02>
+                <c02 level="file">
+                    <did>
+                        <unittitle>File 29</unittitle>
+                        <unitdate unitdatetype="inclusive" normal=""/>
+                        <container localtype="folder">29</container>
+                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>"These Are the Times," by Thomas Paine and C.F. Bryan</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
                 </c02>
             </c01>
+            <!-- ZORA + JEFF -->
             <c01 level="series">
                 <did>
                     <unitid>Series 3</unitid>
                     <unittitle>Other</unittitle>
                     <unitdate/>
-                    <physdesc></physdesc>
+                    <physdesc/>
                 </did>
                 <scopecontent>
                     <p/>
