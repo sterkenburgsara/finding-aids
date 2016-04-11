@@ -59,9 +59,9 @@
                     <part>Bryan, Charles Faulkner</part>
                 </persname>
             </origination>
-            <!-- Ask Jodie Gambill about label tags - do we need to tell it specific labels, or could we built that in another way? -->
             <!-- Do not include definite or indefinite articles at front of titles -->
-            <unittitle label="Title">Charles Faulkner Bryan Papers</unittitle>
+            <!-- Documented decision to not use labels (for now) - we will create those in a mapping to HTML at later date -->
+            <unittitle>Charles Faulkner Bryan Papers</unittitle>
             <unitdatestructured unitdatetype="inclusive">
                 <daterange>
                     <fromdate standarddate="1947">1947</fromdate>
