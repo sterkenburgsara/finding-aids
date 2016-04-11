@@ -504,24 +504,34 @@
                 </scopecontent>
                 <c02 level="file">
                     <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
+                        <unittitle>File 30</unittitle>
+                        <container localtype="folder">30</container>
                     </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>Libretto for "Singing' Billy: An Opera in Two Acts" by Charles F. Bryan 
+                                    and Donald Davidson for a perfomance at George Peabody College August 9, 10, 1951 </item>
+                            </defitem>
+                        </list>
+                    </fileplan>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <unittitle/>
+                        <unittitle>File 31</unittitle>
                         <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
+                        <container localtype="folder">31</container>
                     </did>
-                </c02>
-                <c02 level="file">
-                    <did>
-                        <unittitle/>
-                        <unitdate unitdatetype="inclusive" normal=""/>
-                        <container/>
-                    </did>
+                    <fileplan>
+                        <list>
+                            <defitem>
+                                <label>Item 1:</label>
+                                <item>Program - Dedication Ceremony - Bryan Fine Arts Building, Nov. 14, 1981, Tennessee Technological 
+                                    University, Cookeville, Tennessee</item>
+                            </defitem>
+                        </list>
+                    </fileplan>
                 </c02>
             </c01>
         </dsc>
